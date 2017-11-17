@@ -1,0 +1,24 @@
+Dataset representation in D3 or similar.
+
+I have a dataset of 10 variables for a “m” quantity of items distributed in 3 hierarchycal levels in a tsv format (or excel format).
+Every data has subvariables called “i” and  “N”. Both don’t have a fixed number and can vary from one experiment to another. The distribution of the “m” items in the 3 levels can vary too. “m” quantity can vary too.
+
+(see table 1) 
+
+The job is:
+
+1.-To calculate the correlation:
+Among everything and save the datas in some format for posterior analysis.
+
+2.-Standarize the values obtained in the first step for selected variables  to show in a Dendrogram diagram as here: https://bl.ocks.org/mbostock/4339607
+Plot the standardize values. 
+Every value is represented as two circle. One inside the another.
+The 2 circles has 2 ratios with the same anchor line, coded as r1, r2, and r3. R1 is the mean of one variable, r2 is the variation of i, and r3 is the variation of N.
+
+3.-Make the same plots of step 2 but for all cumulative experiments. ZG(total)=mean of all ZG, and so.
+
+I’m asking you for budget (it can be more or minus) and how you will present the data to get the maximum information possible.
+
+(in the file results.xlsx are real datas. N=36, i=3, total variables to plot in a dendrogram=3 (pZG, pZGS and pTotal. Everyone has its own dendrogram plot), 1st branch/hierarchycal level=7, 2nd branch=11, 3rd=84)
+
+Best Regards
